@@ -11,28 +11,5 @@ Remote Services: External systems available over the internet (e.g., through API
 This separation of concerns allows for modular, composable systems where each server can focus on a specific domain (like file access, web search, or database operations).
 
 
----
-config:
-  theme: neutral
-  look: classic
-  layout: dagre
----
-flowchart LR
- subgraph Computer["Your Computer"]
-        Client["Host with MCP Client<br>(Claude, IDEs, Tools)"]
-        ServerA["MCP Server A"]
-        ServerB["MCP Server B"]
-        ServerC["MCP Server C"]
-        DataA[("Local<br>Data Source A")]
-        DataB[("Local<br>Data Source B")]
-  end
- subgraph Internet["Internet"]
-        RemoteC[("Remote<br>Service C")]
-  end
-    Client -- MCP Protocol --> ServerA & ServerB & ServerC
-    ServerA <--> DataA
-    ServerB <--> DataB
-    ServerC -- Web APIs --> RemoteC
-
-
+![image](https://github.com/user-attachments/assets/c53c0ccb-ea2e-4213-a2b9-c66b0f5d93e0)
 
