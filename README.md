@@ -16,5 +16,5 @@ This separation of concerns allows for modular, composable systems where each se
 Topics covered :
 1. creating first server
 2. Creating first client
-3.Integrating the client with LLM
+3. Integrating the client with LLM
 
