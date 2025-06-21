@@ -1,4 +1,5 @@
-﻿# MCP : Model coontext protocol
+﻿# MCP : Model Context protocol
+ MCP Has standrdized the way for interaction between LLM and tools . and it is acting as USB-C connector for LLM and tool invocations.
 
 MCP Architecture Overview
 The Model Context Protocol follows a client-host-server architecture: This separation of concerns allows for modular, composable systems where each server can focus on a specific domain (like file access, web search, or database operations).
@@ -11,5 +12,10 @@ Remote Services: External systems available over the internet (e.g., through API
 This separation of concerns allows for modular, composable systems where each server can focus on a specific domain (like file access, web search, or database operations).
 
 
-![image](https://github.com/user-attachments/assets/c53c0ccb-ea2e-4213-a2b9-c66b0f5d93e0)
+                  ![image](https://github.com/user-attachments/assets/c53c0ccb-ea2e-4213-a2b9-c66b0f5d93e0)
+
+Topics covered :
+1. creating first server
+2. Creating first client
+3.Integrating the client with LLM
 
