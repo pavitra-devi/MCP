@@ -6,16 +6,8 @@ Steps for integration :
 2. Now create .vscode folder inside root folder of current working directory
 3. add mcp.json inside .vscode folder created in earlier step
 4. Now link your any custom sever using below shema
- - {
-    "inputs": [],
-    "servers": {
-        "hello-mcp": {
-            "command": "d:/mcp/.venv/Scripts/python.exe",
-            "args": ["Calculator/server.py"]
-        }
-    }   
+ ![image](https://github.com/user-attachments/assets/5537b094-5ebe-4c39-834c-5b3ecd4fa6d0)
 
-}
 
 Here i have linked server.py from Caluclator module.
 
@@ -25,10 +17,10 @@ Here i have linked server.py from Caluclator module.
 
 8. Go to github copilot chat area and Type something related to your tool description.
    - for eg : add 2 +10
-     ![image](https://github.com/user-attachments/assets/a848ae57-a1bf-4d9d-a741-7d4ad2d8f521)
 
 9. Now  a pop up will open above the chat area asking permisiion to execute specifc tool from our custom server.
-    ![image](https://github.com/user-attachments/assets/6812e115-84e3-453e-afe9-b18833ed528c)
+   ![image](https://github.com/user-attachments/assets/cf741bd0-3a81-493c-bb54-d974d8c33025)
+
 10 . click continue for tool execution
 
 
