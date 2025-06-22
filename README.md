@@ -14,9 +14,9 @@ This separation of concerns allows for modular, composable systems where each se
 ![image](https://github.com/user-attachments/assets/c53c0ccb-ea2e-4213-a2b9-c66b0f5d93e0)
 
 ## Modules:
-1. Getting started with MCP : 
-In this module we will be creating a Basic and server and client .
-2. LLM Integration :
-In this module we will be diving into integrating our client with gpt model to call specifc tools based on user query. Here LLM autonomusly takes decision which tool to call from the list of available tools from the server.
+1. Getting started with MCP : [Link Text]("https://github.com/pavitra-devi/MCP/tree/main/Calculator)
+   - In this module we will be creating a Calculator server with basic math operations and client to access the listed tools in server .
+2. LLM Integration : [Link Text]("https://github.com/pavitra-devi/MCP/tree/main/LLM_Integration)
+   - In this module we will be diving into integrating our client with gpt model to call specifc tools based on user query. Here LLM autonomusly takes decision which tool to call from the list of available tools from the server.
 
 
