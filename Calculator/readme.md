@@ -23,6 +23,6 @@ both UV and pip can be used
 #commands for using UV:
 uv is simple and light weight package manager, comes with many features that eases devlopement work.
 
-Pip install uv
-uv init project_name : create a project folder with basic files
-uv add mcp[cli]
+- Pip install uv
+- uv init project_name : create a project folder with basic files
+- uv add mcp[cli]
