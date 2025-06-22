@@ -18,7 +18,7 @@ This separation of concerns allows for modular, composable systems where each se
    - In this module we will be creating a Calculator server with basic math operations and client to access the listed tools in server .
 2. LLM Integration : [LLM Integration](https://github.com/pavitra-devi/MCP/tree/main/LLM_Integration)
    - In this module we will be diving into integrating our client with gpt model to call specifc tools based on user query. Here LLM autonomusly takes decision which tool to call from the list of available tools from the server.
-3. Integrating custom tools to VS code github copilot Agent mode :  [Github copilot Custom tool creation](https://github.com/pavitra-devi/MCP/tree/main/VS_Code_custom_tool)
+3. Integrating custom tools to VS code github copilot Agent mode :  [Github copilot Custom server Integration](https://github.com/pavitra-devi/MCP/tree/main/GitHub%20copilot_custom_server)
    - This module provided step by step approach for how we can link our Customly created MCP servers to github copilot Agent mode.
      
 
