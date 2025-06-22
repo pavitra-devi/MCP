@@ -1,4 +1,4 @@
-﻿# MCP : Model Context protocol
+﻿# MCP : Model Context Protocol
  MCP Has standrdized the way for interaction between LLM and tools . and it is acting as USB-C connector for LLM and tool invocations.
 
 MCP Architecture Overview
