@@ -41,7 +41,7 @@ def divide(a:int,b:int)->float:
     return a / b
 
 if __name__ == "__main__":
-    transport="sse"
+    transport="stdio"
     if(transport=="stdio"):
         print("Starting MCP server on stdio...")
         mcp.run(transport="stdio")

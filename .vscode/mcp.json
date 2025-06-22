@@ -1,0 +1,10 @@
+{
+    "inputs": [],
+    "servers": {
+        "hello-mcp": {
+            "command": "d:/mcp/.venv/Scripts/python.exe",
+            "args": ["Calculator/server.py"]
+        }
+    }   
+
+}
