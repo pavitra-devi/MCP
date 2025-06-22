@@ -1,7 +1,7 @@
 # Integrating Local MCP servers to github copilot Agent mode
 
 yes, we can integrate our own customly created tools to github copilot Agent mode.
-Steps for integration :
+### Steps for integration :
 1. Go to File --> preferences --> settings --> Search for MCP and enable chat.mcp.discovery.enabled
 2. Now create .vscode folder inside root folder of current working directory
 3. add mcp.json inside .vscode folder created in earlier step
